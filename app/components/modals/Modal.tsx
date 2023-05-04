@@ -89,7 +89,7 @@ const Modal: React.FC<ModalProps> = ({
           w-full
           md:w-4/6
           lg:w-3/6
-          xl:w-2/5
+          xl:w-[35%]
           my-6
           mx-auto 
           h-full 
@@ -175,7 +175,7 @@ const Modal: React.FC<ModalProps> = ({
                   )}
                   <Button 
                     disabled={disabled} 
-                    label= "hello" 
+                    label= "Continue" 
                     onClick={handleSubmit}
                   />
                 </div>
